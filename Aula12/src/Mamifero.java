@@ -2,17 +2,17 @@ public class Mamifero extends Animal{
     private String corPelo;
 
     @Override
-    void locomover() {
+    public void locomover() {
         System.out.println("Correndo...");
     }
 
     @Override
-    void alimentar() {
+     public void alimentar() {
         System.out.println("Mamando...");
     }
 
     @Override
-    void emitirSom() {
+     public void emitirSom() {
         System.out.println("Som de mamífero");
     }
 

@@ -4,7 +4,7 @@ public class Canguru extends Mamifero{
     }
 
     @Override
-    void locomover(){
+    public void locomover(){
         System.out.println("Saltando...");
     }
 }

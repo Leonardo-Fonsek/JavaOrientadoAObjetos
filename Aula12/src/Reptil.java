@@ -2,17 +2,16 @@ public class Reptil extends Animal{
     private String corEscama;
 
     @Override
-    void locomover(){
+    public void locomover(){
         System.out.println("Rastejando...");
     }
-
     @Override
-    void alimentar(){
+    public void alimentar(){
         System.out.println("Comendo vegetais...");
     }
 
     @Override
-    void emitirSom(){
+    public void emitirSom(){
         System.out.println("Som de réptil");
     }
 

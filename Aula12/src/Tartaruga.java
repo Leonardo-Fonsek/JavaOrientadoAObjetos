@@ -1,6 +1,6 @@
 public class Tartaruga extends Reptil{
     @Override
-    void locomover(){
+    public void locomover(){
         System.out.println("Andando beeeem devagar");
     }
 }

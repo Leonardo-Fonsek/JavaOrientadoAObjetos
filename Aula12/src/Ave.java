@@ -6,17 +6,16 @@ public class Ave extends Animal{
     }
 
     @Override
-    void locomover(){
+    public void locomover(){
         System.out.println("Voando...");
     }
-
     @Override
-    void alimentar(){
+    public void alimentar(){
         System.out.println("Comendo frutas");
     }
 
     @Override
-    void emitirSom(){
+    public void emitirSom(){
         System.out.println("Som da ave");
     }
 

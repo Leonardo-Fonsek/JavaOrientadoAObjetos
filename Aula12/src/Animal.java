@@ -3,11 +3,9 @@ public abstract class Animal {
     private int idade;
     private int membros;
 
-    abstract void locomover();
-
-    abstract void alimentar();
-
-    abstract void emitirSom();
+     public abstract void locomover();
+     public abstract void alimentar();
+     public abstract void emitirSom();
 
     public float getPeso(){
         return peso;
