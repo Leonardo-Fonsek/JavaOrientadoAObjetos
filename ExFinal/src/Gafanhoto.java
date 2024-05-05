@@ -1,4 +1,4 @@
-public class Gafanhoto {
+public class Gafanhoto extends Pessoa{
     private String login;
     private int totAssistido;
 
