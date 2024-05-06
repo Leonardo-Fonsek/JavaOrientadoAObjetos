@@ -8,6 +8,14 @@ public class Gafanhoto extends Pessoa{
         setTotAssistido(0);
     }
 
+    @Override
+    public String toString() {
+        return "Gafanhoto{" + super.toString() +
+                "\nlogin='" + login + '\'' +
+                ", totAssistido=" + totAssistido +
+                '}';
+    }
+
     public void viuMaisUm(){
         setLogin(getLogin() + 1);
     }

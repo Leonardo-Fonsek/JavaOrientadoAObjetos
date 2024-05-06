@@ -14,17 +14,17 @@ public class Video implements AcoesBasicas{
     //metodos interface AcoesBasicas
     @Override
     public void play() {
-
+        setReproduzindo(true);
     }
 
     @Override
     public void pause() {
-
+        setReproduzindo(false);
     }
 
     @Override
     public void like() {
-
+        this.curtidas++;
     }
 
     @Override
