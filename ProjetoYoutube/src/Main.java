@@ -10,7 +10,16 @@ public class Main {
         g[0] = new Gafanhoto("Felipe", 28, "M", "Felipinho");
         g[1] = new Gafanhoto("Ayla", 12, "F", "Aylinha");
 
+        Vizualizacao vis = new Vizualizacao(g[0], v[2]);
+        System.out.println(vis.toString());
+
+        /*System.out.println("VÍDEOS\n----------------------------");
         System.out.println(v[0].toString());
+        System.out.println(v[1].toString());
+        System.out.println(v[2].toString());
+        System.out.println("\nGAFANHOTOS\n--------------------------");
         System.out.println(g[0].toString());
+        System.out.println(g[1].toString());
+         */
     }
 }

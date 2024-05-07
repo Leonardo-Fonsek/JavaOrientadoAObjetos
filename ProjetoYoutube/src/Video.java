@@ -24,7 +24,7 @@ public class Video implements AcoesBasicas{
 
     @Override
     public void like() {
-        this.curtidas++;
+        this.curtidas++; 
     }
 
     @Override
