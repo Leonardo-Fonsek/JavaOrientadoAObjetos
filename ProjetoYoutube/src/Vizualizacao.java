@@ -5,6 +5,8 @@ public class Vizualizacao {
     public Vizualizacao(Gafanhoto espectador, Video filme){
         this.espectador = espectador;
         this.filme = filme;
+        this.espectador.setTotAssistido(this.espectador.getTotAssistido() + 1);
+        this.filme.setViews(this.filme.getViews() + 1);
     }
 
     public void avaliar(){
