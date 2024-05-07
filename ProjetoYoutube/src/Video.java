@@ -46,7 +46,11 @@ public class Video implements AcoesBasicas{
     public void setViews(int views){ this.views = views; }
 
     public int getAvaliacao(){ return avaliacao; }
-    public void setAvaliacao(int avaliacao){ this.avaliacao = avaliacao; }
+    public void setAvaliacao(int avaliacao){
+        int nova;
+        nova = (this.avaliacao + avaliacao);
+        this.avaliacao = nova;
+    }
 
     public int getCurtidas(){ return curtidas; }
     public void setCurtidas(int curtidas){ this.curtidas = curtidas; }
